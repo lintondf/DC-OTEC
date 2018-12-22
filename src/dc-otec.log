@@ -1,0 +1,282 @@
+2018-12-22 13:10:49,342 [simIsentropic.py:125 -         dissolvedAir() ] [8.20615669e-06 1.34091623e-06 3.64385845e-09 4.97472899e-10]
+2018-12-22 13:10:49,342 [simIsentropic.py:790 -             <module>() ] Initialzed:     95 m     931570 Pa     921570 Pa 298.05 K 279.65 K   2.50 K  10.9152  11.4508
+2018-12-22 13:10:50,032 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:10:50,375 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.67 kg, 290.82 K, P -2.688e+05 J, T  1.755e+05 J; cold 4557.79 kg, 286.88 K, P -1.087e+05 J, T  1.977e+04 J;
+2018-12-22 13:10:50,422 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     20083); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:10:50,786 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:10:51,125 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.68 kg, 290.82 K, P -2.689e+05 J, T  1.756e+05 J; cold 4557.55 kg, 286.88 K, P -1.087e+05 J, T  1.974e+04 J;
+2018-12-22 13:10:51,172 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     20083); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:10:51,548 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:10:51,876 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.68 kg, 290.82 K, P -2.689e+05 J, T  1.756e+05 J; cold 4559.64 kg, 286.88 K, P -1.087e+05 J, T  1.975e+04 J;
+2018-12-22 13:10:51,908 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     20083); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:10:52,299 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:10:52,629 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.68 kg, 290.82 K, P  -2.69e+05 J, T  1.757e+05 J; cold 4557.38 kg, 286.88 K, P -1.086e+05 J, T  1.967e+04 J;
+2018-12-22 13:10:52,660 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     20083); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:10:52,660 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:10:52,660 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.884 MW;      1.245 MJ;   5579,289.56;   5418,288.26 W/C-kg,K; -0.420 MJ  0.179 MJ -0.213 MJ -19.35       0.791 MJ  13896.913 kg/MJ   14061.54
+2018-12-22 13:10:53,333 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:10:53,660 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.71 kg, 290.82 K, P -2.762e+05 J, T  1.755e+05 J; cold 4558.04 kg, 286.88 K, P -1.123e+05 J, T  1.636e+04 J;
+2018-12-22 13:10:53,707 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     21668); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:10:54,081 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:10:54,425 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.71 kg, 290.82 K, P -2.762e+05 J, T  1.756e+05 J; cold 4557.53 kg, 286.88 K, P -1.123e+05 J, T  1.632e+04 J;
+2018-12-22 13:10:54,472 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     21668); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:10:54,835 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:10:55,199 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.72 kg, 290.82 K, P -2.763e+05 J, T  1.756e+05 J; cold 4557.09 kg, 286.88 K, P -1.122e+05 J, T  1.629e+04 J;
+2018-12-22 13:10:55,230 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     21668); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:10:55,616 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:10:55,947 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.72 kg, 290.82 K, P -2.764e+05 J, T  1.757e+05 J; cold 4558.11 kg, 286.88 K, P -1.123e+05 J, T  1.628e+04 J;
+2018-12-22 13:10:55,978 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     21668); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:10:55,978 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:10:55,978 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.867 MW;      1.245 MJ;   5579,289.56;   5418,288.25 W/C-kg,K; -0.432 MJ  0.176 MJ -0.213 MJ -20.56       0.776 MJ  14168.290 kg/MJ   14615.06
+2018-12-22 13:10:56,650 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:10:56,978 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.74 kg, 290.82 K, P -2.835e+05 J, T  1.755e+05 J; cold 4555.71 kg, 286.89 K, P -1.162e+05 J, T  1.321e+04 J;
+2018-12-22 13:10:57,025 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     23254); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:10:57,401 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:10:57,729 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.75 kg, 290.82 K, P -2.836e+05 J, T  1.756e+05 J; cold 4556.20 kg, 286.88 K, P -1.162e+05 J, T   1.32e+04 J;
+2018-12-22 13:10:57,776 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     23254); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:10:58,152 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:10:58,480 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.75 kg, 290.82 K, P -2.837e+05 J, T  1.756e+05 J; cold 4558.28 kg, 286.88 K, P -1.162e+05 J, T   1.32e+04 J;
+2018-12-22 13:10:58,512 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     23254); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:10:58,903 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:10:59,232 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.76 kg, 290.82 K, P -2.838e+05 J, T  1.757e+05 J; cold 4556.19 kg, 286.88 K, P -1.161e+05 J, T  1.316e+04 J;
+2018-12-22 13:10:59,279 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     23254); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:10:59,279 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:10:59,279 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.851 MW;      1.245 MJ;   5579,289.56;   5417,288.26 W/C-kg,K; -0.444 MJ  0.173 MJ -0.213 MJ -21.77       0.761 MJ  14446.122 kg/MJ   15196.47
+2018-12-22 13:10:59,936 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:00,281 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.78 kg, 290.82 K, P -2.909e+05 J, T  1.755e+05 J; cold 4555.68 kg, 286.89 K, P -1.204e+05 J, T  1.044e+04 J;
+2018-12-22 13:11:00,328 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     24839); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:00,703 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:01,047 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.78 kg, 290.82 K, P  -2.91e+05 J, T  1.756e+05 J; cold 4555.86 kg, 286.89 K, P -1.204e+05 J, T   1.04e+04 J;
+2018-12-22 13:11:01,078 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     24839); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:01,469 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:01,798 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.79 kg, 290.82 K, P -2.911e+05 J, T  1.756e+05 J; cold 4556.40 kg, 286.88 K, P -1.204e+05 J, T  1.041e+04 J;
+2018-12-22 13:11:01,845 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     24839); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:02,221 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:02,564 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.79 kg, 290.82 K, P -2.911e+05 J, T  1.757e+05 J; cold 4556.45 kg, 286.88 K, P -1.204e+05 J, T  1.039e+04 J;
+2018-12-22 13:11:02,596 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     24839); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:02,596 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:02,596 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.834 MW;      1.245 MJ;   5579,289.56;   5417,288.26 W/C-kg,K; -0.457 MJ  0.171 MJ -0.213 MJ -23.00       0.746 MJ  14741.848 kg/MJ   15824.60
+2018-12-22 13:11:03,269 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:03,597 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.81 kg, 290.82 K, P -2.983e+05 J, T  1.755e+05 J; cold 4558.72 kg, 286.88 K, P -1.251e+05 J, T       8018 J;
+2018-12-22 13:11:03,644 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     26425); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:04,021 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:04,364 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.81 kg, 290.82 K, P -2.983e+05 J, T  1.756e+05 J; cold 4556.60 kg, 286.88 K, P  -1.25e+05 J, T       8026 J;
+2018-12-22 13:11:04,411 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     26425); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:04,786 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:05,118 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.82 kg, 290.83 K, P -2.984e+05 J, T  1.756e+05 J; cold 4555.94 kg, 286.89 K, P  -1.25e+05 J, T       8001 J;
+2018-12-22 13:11:05,149 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     26425); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:05,537 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:05,882 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.82 kg, 290.83 K, P -2.985e+05 J, T  1.757e+05 J; cold 4556.10 kg, 286.89 K, P  -1.25e+05 J, T       7984 J;
+2018-12-22 13:11:05,913 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     26425); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:05,913 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:05,913 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.816 MW;      1.245 MJ;   5579,289.56;   5416,288.26 W/C-kg,K; -0.471 MJ  0.169 MJ -0.213 MJ -24.23       0.731 MJ  15050.482 kg/MJ   16494.62
+2018-12-22 13:11:06,586 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:06,916 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.84 kg, 290.83 K, P -3.056e+05 J, T  1.755e+05 J; cold 4558.70 kg, 286.88 K, P -1.301e+05 J, T       6012 J;
+2018-12-22 13:11:06,963 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     28010); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:07,339 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:07,667 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.84 kg, 290.83 K, P -3.057e+05 J, T  1.756e+05 J; cold 4558.80 kg, 286.88 K, P -1.301e+05 J, T       5997 J;
+2018-12-22 13:11:07,714 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     28010); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:08,090 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:08,419 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.85 kg, 290.83 K, P -3.058e+05 J, T  1.756e+05 J; cold 4559.49 kg, 286.88 K, P -1.301e+05 J, T       5996 J;
+2018-12-22 13:11:08,466 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     28010); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:08,830 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:09,154 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.85 kg, 290.83 K, P -3.059e+05 J, T  1.757e+05 J; cold 4557.58 kg, 286.88 K, P   -1.3e+05 J, T       5981 J;
+2018-12-22 13:11:09,201 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     28010); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:09,201 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:09,201 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.799 MW;      1.245 MJ;   5579,289.56;   5418,288.26 W/C-kg,K; -0.484 MJ  0.167 MJ -0.213 MJ -25.47       0.715 MJ  15379.205 kg/MJ   17220.65
+2018-12-22 13:11:09,871 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:10,234 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.87 kg, 290.83 K, P  -3.13e+05 J, T  1.755e+05 J; cold 4558.94 kg, 286.88 K, P -1.356e+05 J, T       4443 J;
+2018-12-22 13:11:10,281 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     29596); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:10,657 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:10,985 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.87 kg, 290.83 K, P -3.131e+05 J, T  1.756e+05 J; cold 4559.07 kg, 286.88 K, P -1.356e+05 J, T       4444 J;
+2018-12-22 13:11:11,032 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     29596); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:11,408 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:11,721 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.88 kg, 290.83 K, P -3.132e+05 J, T  1.756e+05 J; cold 4559.64 kg, 286.88 K, P -1.356e+05 J, T       4438 J;
+2018-12-22 13:11:11,752 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     29596); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:12,126 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:12,472 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.88 kg, 290.83 K, P -3.132e+05 J, T  1.757e+05 J; cold 4557.35 kg, 286.88 K, P -1.355e+05 J, T       4448 J;
+2018-12-22 13:11:12,504 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     29596); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:12,504 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:12,504 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.782 MW;      1.245 MJ;   5580,289.56;   5418,288.26 W/C-kg,K; -0.499 MJ  0.166 MJ -0.213 MJ -26.72       0.700 MJ  15721.077 kg/MJ   17995.10
+2018-12-22 13:11:13,160 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:13,490 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.89 kg, 290.83 K, P -3.204e+05 J, T  1.755e+05 J; cold 4567.15 kg, 286.87 K, P -1.418e+05 J, T       3383 J;
+2018-12-22 13:11:13,521 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     31181); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:13,881 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:14,210 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.90 kg, 290.83 K, P -3.205e+05 J, T  1.756e+05 J; cold 4568.33 kg, 286.87 K, P -1.418e+05 J, T       3381 J;
+2018-12-22 13:11:14,257 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     31181); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:14,599 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:14,938 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.90 kg, 290.83 K, P -3.205e+05 J, T  1.756e+05 J; cold 4561.44 kg, 286.88 K, P -1.416e+05 J, T       3391 J;
+2018-12-22 13:11:14,974 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     31181); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:15,349 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:15,678 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.91 kg, 290.83 K, P -3.206e+05 J, T  1.757e+05 J; cold 4557.70 kg, 286.88 K, P -1.415e+05 J, T       3391 J;
+2018-12-22 13:11:15,725 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     31181); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:15,725 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:15,725 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.764 MW;      1.245 MJ;   5580,289.56;   5418,288.26 W/C-kg,K; -0.513 MJ  0.165 MJ -0.213 MJ -27.98       0.684 MJ  16083.076 kg/MJ   18832.72
+2018-12-22 13:11:16,366 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:16,664 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.92 kg, 290.83 K, P -3.277e+05 J, T  1.755e+05 J; cold 4567.86 kg, 286.87 K, P -1.484e+05 J, T       2918 J;
+2018-12-22 13:11:16,711 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     32766); hot:     964728,     921058; cold:     879368,     921058   OUUUOUUU
+2018-12-22 13:11:17,055 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:17,368 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.92 kg, 290.83 K, P -3.278e+05 J, T  1.756e+05 J; cold 4568.70 kg, 286.87 K, P -1.484e+05 J, T       2913 J;
+2018-12-22 13:11:17,415 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     32766); hot:     964711,     921041; cold:     879352,     921041   OUUUOUUU
+2018-12-22 13:11:17,744 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:18,058 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.93 kg, 290.83 K, P -3.279e+05 J, T  1.756e+05 J; cold 4570.27 kg, 286.86 K, P -1.484e+05 J, T       2905 J;
+2018-12-22 13:11:18,089 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     32766); hot:     964694,     921025; cold:     879336,     921025   OUUUOUUU
+2018-12-22 13:11:18,448 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:18,746 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.93 kg, 290.83 K, P  -3.28e+05 J, T  1.757e+05 J; cold 4564.37 kg, 286.87 K, P -1.483e+05 J, T       2939 J;
+2018-12-22 13:11:18,793 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     32766); hot:     964676,     921009; cold:     879321,     921009   OUUUOUUU
+2018-12-22 13:11:18,793 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:18,793 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.746 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.529 MJ  0.165 MJ -0.213 MJ -29.27       0.668 MJ  16484.201 kg/MJ   19771.80
+2018-12-22 13:11:19,418 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:19,717 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.94 kg, 290.83 K, P -3.351e+05 J, T  1.755e+05 J; cold 4573.19 kg, 286.86 K, P -1.555e+05 J, T       2864 J;
+2018-12-22 13:11:19,764 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     34352); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:20,107 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:20,404 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.95 kg, 290.83 K, P -3.352e+05 J, T  1.756e+05 J; cold 4572.01 kg, 286.86 K, P -1.555e+05 J, T       2872 J;
+2018-12-22 13:11:20,451 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     34352); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:20,795 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:21,092 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.95 kg, 290.83 K, P -3.353e+05 J, T  1.756e+05 J; cold 4571.56 kg, 286.86 K, P -1.555e+05 J, T       2881 J;
+2018-12-22 13:11:21,124 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     34352); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:21,467 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:21,781 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.96 kg, 290.83 K, P -3.353e+05 J, T  1.757e+05 J; cold 4564.38 kg, 286.87 K, P -1.553e+05 J, T       2889 J;
+2018-12-22 13:11:21,813 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     34352); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:21,813 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:21,813 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.728 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.545 MJ  0.165 MJ -0.213 MJ -30.56       0.652 MJ  16888.744 kg/MJ   20754.09
+2018-12-22 13:11:22,454 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:22,752 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.97 kg, 290.83 K, P -3.425e+05 J, T  1.755e+05 J; cold 4563.95 kg, 286.87 K, P -1.622e+05 J, T       2858 J;
+2018-12-22 13:11:22,799 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     35937); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:23,142 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:23,439 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.97 kg, 290.83 K, P -3.426e+05 J, T  1.756e+05 J; cold 4572.01 kg, 286.86 K, P -1.625e+05 J, T       2872 J;
+2018-12-22 13:11:23,486 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     35937); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:23,814 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:24,124 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.98 kg, 290.83 K, P -3.426e+05 J, T  1.756e+05 J; cold 4571.55 kg, 286.86 K, P -1.625e+05 J, T       2881 J;
+2018-12-22 13:11:24,158 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     35937); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:24,501 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:24,815 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.98 kg, 290.83 K, P -3.427e+05 J, T  1.757e+05 J; cold 4564.39 kg, 286.87 K, P -1.623e+05 J, T       2889 J;
+2018-12-22 13:11:24,846 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     35937); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:24,846 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:24,846 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.710 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.561 MJ  0.165 MJ -0.213 MJ -31.84       0.636 MJ  17313.990 kg/MJ   21812.34
+2018-12-22 13:11:25,489 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:25,785 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.99 kg, 290.83 K, P -3.499e+05 J, T  1.755e+05 J; cold 4573.18 kg, 286.86 K, P -1.696e+05 J, T       2864 J;
+2018-12-22 13:11:25,832 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     37523); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:26,176 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:26,488 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4761.99 kg, 290.83 K, P -3.499e+05 J, T  1.756e+05 J; cold 4572.00 kg, 286.86 K, P -1.696e+05 J, T       2872 J;
+2018-12-22 13:11:26,535 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     37523); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:26,880 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:27,192 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.00 kg, 290.83 K, P   -3.5e+05 J, T  1.756e+05 J; cold 4571.55 kg, 286.86 K, P -1.696e+05 J, T       2881 J;
+2018-12-22 13:11:27,224 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     37523); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:27,567 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:27,866 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.00 kg, 290.83 K, P -3.501e+05 J, T  1.757e+05 J; cold 4564.38 kg, 286.87 K, P -1.693e+05 J, T       2889 J;
+2018-12-22 13:11:27,912 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     37523); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:27,912 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:27,912 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.692 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.577 MJ  0.165 MJ -0.213 MJ -33.13       0.620 MJ  17761.183 kg/MJ   22953.61
+2018-12-22 13:11:28,553 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:28,852 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.01 kg, 290.83 K, P -3.572e+05 J, T  1.755e+05 J; cold 4573.13 kg, 286.86 K, P -1.767e+05 J, T       2864 J;
+2018-12-22 13:11:28,883 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     39108); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:29,242 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:29,523 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.01 kg, 290.83 K, P -3.573e+05 J, T  1.756e+05 J; cold 4571.96 kg, 286.86 K, P -1.766e+05 J, T       2872 J;
+2018-12-22 13:11:29,570 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     39108); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:29,915 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:30,231 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.02 kg, 290.83 K, P -3.574e+05 J, T  1.756e+05 J; cold 4571.56 kg, 286.86 K, P -1.766e+05 J, T       2881 J;
+2018-12-22 13:11:30,261 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     39108); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:30,605 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:30,903 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.02 kg, 290.83 K, P -3.574e+05 J, T  1.757e+05 J; cold 4564.38 kg, 286.87 K, P -1.764e+05 J, T       2889 J;
+2018-12-22 13:11:30,950 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     39108); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:30,950 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:30,950 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.675 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.593 MJ  0.165 MJ -0.213 MJ -34.41       0.604 MJ  18232.070 kg/MJ   24186.80
+2018-12-22 13:11:31,590 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:31,888 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.03 kg, 290.83 K, P -3.646e+05 J, T  1.755e+05 J; cold 4573.06 kg, 286.86 K, P -1.837e+05 J, T       2864 J;
+2018-12-22 13:11:31,919 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     40694); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:32,263 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:32,565 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.03 kg, 290.83 K, P -3.647e+05 J, T  1.756e+05 J; cold 4571.91 kg, 286.86 K, P -1.837e+05 J, T       2872 J;
+2018-12-22 13:11:32,612 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     40694); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:32,951 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:33,246 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.04 kg, 290.83 K, P -3.647e+05 J, T  1.756e+05 J; cold 4571.58 kg, 286.86 K, P -1.837e+05 J, T       2880 J;
+2018-12-22 13:11:33,297 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     40694); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:33,625 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:33,937 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.04 kg, 290.83 K, P -3.648e+05 J, T  1.757e+05 J; cold 4564.37 kg, 286.87 K, P -1.834e+05 J, T       2889 J;
+2018-12-22 13:11:33,968 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     40694); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:33,968 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:33,968 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.657 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.609 MJ  0.165 MJ -0.213 MJ -35.70       0.588 MJ  18728.585 kg/MJ   25522.08
+2018-12-22 13:11:34,609 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:34,907 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.05 kg, 290.83 K, P  -3.72e+05 J, T  1.755e+05 J; cold 4572.97 kg, 286.86 K, P -1.908e+05 J, T       2864 J;
+2018-12-22 13:11:34,954 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     42279); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:35,298 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:35,626 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.05 kg, 290.83 K, P  -3.72e+05 J, T  1.756e+05 J; cold 4571.85 kg, 286.86 K, P -1.907e+05 J, T       2872 J;
+2018-12-22 13:11:35,673 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     42279); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:36,070 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:36,375 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.06 kg, 290.83 K, P -3.721e+05 J, T  1.757e+05 J; cold 4571.62 kg, 286.86 K, P -1.907e+05 J, T       2880 J;
+2018-12-22 13:11:36,411 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     42279); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:36,739 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:37,041 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.06 kg, 290.83 K, P -3.722e+05 J, T  1.757e+05 J; cold 4564.35 kg, 286.87 K, P -1.904e+05 J, T       2888 J;
+2018-12-22 13:11:37,088 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     42279); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:37,088 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:37,088 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.639 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.625 MJ  0.165 MJ -0.213 MJ -36.98       0.572 MJ  19252.882 kg/MJ   26971.02
+2018-12-22 13:11:37,720 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:38,022 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.07 kg, 290.83 K, P -3.793e+05 J, T  1.755e+05 J; cold 4572.87 kg, 286.86 K, P -1.978e+05 J, T       2864 J;
+2018-12-22 13:11:38,069 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     43865); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:38,418 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:38,711 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.07 kg, 290.83 K, P -3.794e+05 J, T  1.756e+05 J; cold 4571.79 kg, 286.86 K, P -1.978e+05 J, T       2872 J;
+2018-12-22 13:11:38,742 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     43865); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:39,088 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:39,391 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.08 kg, 290.83 K, P -3.795e+05 J, T  1.757e+05 J; cold 4571.69 kg, 286.86 K, P -1.978e+05 J, T       2880 J;
+2018-12-22 13:11:39,434 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     43865); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:39,758 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:40,071 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.08 kg, 290.83 K, P -3.796e+05 J, T  1.757e+05 J; cold 4564.33 kg, 286.87 K, P -1.975e+05 J, T       2888 J;
+2018-12-22 13:11:40,102 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     43865); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:40,102 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:40,102 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.621 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.641 MJ  0.165 MJ -0.213 MJ -38.27       0.556 MJ  19807.359 kg/MJ   28546.91
+2018-12-22 13:11:40,759 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:41,042 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.08 kg, 290.83 K, P -3.867e+05 J, T  1.755e+05 J; cold 4572.75 kg, 286.86 K, P -2.048e+05 J, T       2864 J;
+2018-12-22 13:11:41,089 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     45450); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:41,433 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:41,730 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.09 kg, 290.83 K, P -3.868e+05 J, T  1.756e+05 J; cold 4571.72 kg, 286.86 K, P -2.048e+05 J, T       2872 J;
+2018-12-22 13:11:41,777 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     45450); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:42,122 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:42,419 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.09 kg, 290.83 K, P -3.869e+05 J, T  1.757e+05 J; cold 4571.80 kg, 286.86 K, P -2.048e+05 J, T       2880 J;
+2018-12-22 13:11:42,450 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     45450); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:42,794 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:43,093 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.10 kg, 290.83 K, P -3.869e+05 J, T  1.757e+05 J; cold 4564.31 kg, 286.87 K, P -2.045e+05 J, T       2888 J;
+2018-12-22 13:11:43,139 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     45450); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:43,139 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:43,139 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.603 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.657 MJ  0.165 MJ -0.213 MJ -39.55       0.540 MJ  20394.706 kg/MJ   30265.02
+2018-12-22 13:11:43,781 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:44,079 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.10 kg, 290.83 K, P -3.941e+05 J, T  1.755e+05 J; cold 4572.63 kg, 286.86 K, P -2.119e+05 J, T       2864 J;
+2018-12-22 13:11:44,125 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     47036); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:44,469 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:44,768 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.10 kg, 290.83 K, P -3.941e+05 J, T  1.756e+05 J; cold 4571.65 kg, 286.86 K, P -2.118e+05 J, T       2872 J;
+2018-12-22 13:11:44,799 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     47036); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:45,159 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:45,456 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.11 kg, 290.83 K, P -3.942e+05 J, T  1.757e+05 J; cold 4567.59 kg, 286.87 K, P -2.117e+05 J, T       2880 J;
+2018-12-22 13:11:45,487 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     47036); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:45,845 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:46,159 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.12 kg, 290.83 K, P -3.943e+05 J, T  1.757e+05 J; cold 4564.30 kg, 286.87 K, P -2.115e+05 J, T       2888 J;
+2018-12-22 13:11:46,205 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     47036); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:46,205 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:46,205 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.585 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.673 MJ  0.165 MJ -0.213 MJ -40.83       0.524 MJ  21017.958 kg/MJ   32143.05
+2018-12-22 13:11:46,831 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:47,129 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.11 kg, 290.83 K, P -4.014e+05 J, T  1.755e+05 J; cold 4572.50 kg, 286.86 K, P -2.189e+05 J, T       2863 J;
+2018-12-22 13:11:47,192 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     48621); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:47,520 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:47,817 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.12 kg, 290.83 K, P -4.015e+05 J, T  1.756e+05 J; cold 4571.60 kg, 286.86 K, P -2.189e+05 J, T       2872 J;
+2018-12-22 13:11:47,864 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     48621); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:48,208 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:48,505 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.13 kg, 290.83 K, P -4.016e+05 J, T  1.757e+05 J; cold 4567.31 kg, 286.87 K, P -2.187e+05 J, T       2879 J;
+2018-12-22 13:11:48,536 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     48621); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:48,897 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:49,210 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.13 kg, 290.83 K, P -4.017e+05 J, T  1.757e+05 J; cold 4564.29 kg, 286.87 K, P -2.186e+05 J, T       2888 J;
+2018-12-22 13:11:49,241 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     48621); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:49,241 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:49,241 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.567 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.689 MJ  0.165 MJ -0.213 MJ -42.12       0.508 MJ  21680.549 kg/MJ   34201.59
+2018-12-22 13:11:49,882 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.67 kg, 282.17 K, P          0 J, T       8393 J; cold 860.37 kg, 295.53 K, P          0 J, T       8791 J
+2018-12-22 13:11:50,179 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.13 kg, 290.83 K, P -4.088e+05 J, T  1.755e+05 J; cold 4572.36 kg, 286.86 K, P  -2.26e+05 J, T       2863 J;
+2018-12-22 13:11:50,226 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     50207); hot:     964728,     921058; cold:     879368,     921058   OUUUUUUU
+2018-12-22 13:11:50,554 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.65 kg, 282.17 K, P          0 J, T       8406 J; cold 860.35 kg, 295.53 K, P          0 J, T       8805 J
+2018-12-22 13:11:50,868 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.13 kg, 290.83 K, P -4.089e+05 J, T  1.756e+05 J; cold 4571.55 kg, 286.86 K, P -2.259e+05 J, T       2872 J;
+2018-12-22 13:11:50,899 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     50207); hot:     964711,     921041; cold:     879352,     921041   OUUUUUUU
+2018-12-22 13:11:51,257 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.64 kg, 282.17 K, P          0 J, T       8419 J; cold 860.34 kg, 295.53 K, P          0 J, T       8818 J
+2018-12-22 13:11:51,554 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.14 kg, 290.83 K, P  -4.09e+05 J, T  1.757e+05 J; cold 4564.33 kg, 286.87 K, P -2.256e+05 J, T       2880 J;
+2018-12-22 13:11:51,585 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     50207); hot:     964694,     921025; cold:     879336,     921025   OUUUUUUU
+2018-12-22 13:11:51,930 [simIsentropic.py:596 - runAlternatingIsothermal() ] isoT water: hot 817.62 kg, 282.17 K, P          0 J, T       8432 J; cold 860.32 kg, 295.53 K, P          0 J, T       8832 J
+2018-12-22 13:11:52,244 [simIsentropic.py:600 - runAlternatingIsothermal() ] regn water: hot 4762.15 kg, 290.83 K, P  -4.09e+05 J, T  1.757e+05 J; cold 4564.30 kg, 286.87 K, P -2.256e+05 J, T       2888 J;
+2018-12-22 13:11:52,291 [simIsentropic.py:551 -         logPressures() ] pressures: D:     931570 (     50207); hot:     964676,     921009; cold:     879321,     921009   OUUUUUUU
+2018-12-22 13:11:52,291 [simIsentropic.py:125 -         dissolvedAir() ] [7.00519268e-05 1.15022688e-05 3.12431680e-08 4.36474000e-09]
+2018-12-22 13:11:52,291 [simIsentropic.py:762 -         printSummary() ]   -10000.0 Pa     95 m 1.0000 m2     0.8948 s      0.549 MW;      1.245 MJ;   5580,289.56;   5425,288.24 W/C-kg,K; -0.705 MJ  0.165 MJ -0.213 MJ -43.40       0.492 MJ  22386.354 kg/MJ   36464.62
