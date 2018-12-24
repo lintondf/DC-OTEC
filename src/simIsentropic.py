@@ -28,6 +28,8 @@ from math import isnan, log, exp
 from runstats import Statistics
 from sim import Pdepth
 
+logger = ()
+
 # SERI values
 Tsurface = 298.05
 Tdeep = 279.65
@@ -35,12 +37,14 @@ rhoSurface = 1024.1
 rhoDeep = 1028.8
 dTfinal = 2.5
 
+air = Mixture('air', T=300, P=101325)
+
 depth = 200
 ioHeight = 2.5 # [m]
-Pdepth = 1000*9.806*depth # 735450.0; # [Pa]
-dPIO = 9.806*1000*ioHeight
+Pdepth = 1024*9.806*depth # 735450.0; # [Pa]
+dPIO = 9.806*1024*ioHeight
 Pstart= Pdepth+0.5*dPIO
-volume = 1250.0; # [m3] # 150.0e2/2 # 
+volume = 1400; # [m3] 
 Thot = Tsurface - dTfinal
 Tcold = Tdeep + dTfinal
 rhoCold = 8.6935 # [kg/m3]
@@ -81,6 +85,9 @@ nYZ = nY+nZ
   z[5] - power     [W]
 '''
 
+#TODO: for deep water O2 *= 0.1; CO2 *= 1.1 input conditions
+surfaceGases = 0 # kg/kg
+
 # [0] - fit coefficients
 # [1] - mole in kg
 # [2] - atmosphere pressure fraction
@@ -93,23 +100,27 @@ gasCoefficients = {
     'Ar':  ([-174.3732,    251.8139,    145.2337,    -22.2046,    -0.038729,     0.017171,    -0.0021281],
             0.039792,  0.01*0.934),
     'CO2': ([-60.2409,      93.4517,     23.3585,           0,     0.023517,    -0.023656,     0.0047036],
-            0.04401,   0.01*0.04),
+            0.04401,   0.01*0.04, 1.977e-3),
+    # thermo misinterprets CO as methanol
+    'C1O1':([-47.6148,      69.5068,     18.7397,           0,     0.045657,    -0.040721,     0.0079700], # mL/mL
+            0.028,     0, 1.145e-3),
+    'H2':  ([-47.8948,      65.0368,     20.1709,           0,     -0.082225,    0.049564,    -0.0078689], # mL/mL
+            0.002,     0,  0.08988e-3)
     }
-#TODO: for deep water O2 *= 0.1; CO2 *= 1.1 input conditions
-surfaceGases = 0 # kg/kg
 
 def dissolvedAir( P, T, S, rho, m ): 
     X = array([1.0, 100.0/T, log(T/100.0), T/100.0, S*1.0, S*T/100.0, S*(T/100.0)**2])
     mdissolved = empty((0))
     for gas in gasCoefficients :
         C = gasCoefficients[gas]
-        if (gas == 'CO2') :
-            r = 1.0e-3  # CO2 fit is mol/kg/atm
+        if (C[0][3] == 0) :
+            r = C[3]  # CO2 fit is mol/kg/atm
         else :
             r = 1e-3/rho # other are mmol/m3/atm
         Y = array(C[0])
         K = X * Y
         K = exp(K.sum()) 
+#         print(gas,K,K*r, 1000*K*r)
         kgkgPa = 1.0/101325.0*K*C[1]*r # kg/kg/Pa
         pP = C[2] * P # partial pressure Pa
         m_gas = pP * kgkgPa # kg/kg
@@ -118,11 +129,10 @@ def dissolvedAir( P, T, S, rho, m ):
     mdissolved -= surfaceGases
     Pr = P / 101325
     T0 = 300
-    T1 = T0 * Pr ** (0.4/1.4)
+    T1 = T0 * Pr ** (gammam1/gamma)
     R = 287.058
     w = R * T0 * log(Pr)
     W = m * mdissolved.sum() * w 
-    logger.info(mdissolved)
     return (W, w, T1, m * mdissolved.sum(), mdissolved)
 
 # def dissolvedAir( P, m ): 
@@ -132,7 +142,7 @@ def dissolvedAir( P, T, S, rho, m ):
 #     mdissolved = m * (partialPs * kgkgPa)
 #     Pr = P / 101325
 #     T0 = 300
-#     T1 = T0 * Pr ** (0.4/1.4)
+#     T1 = T0 * Pr ** (gammam1/gamma)
 #     R = 287.058
 #     w = R * T0 * log(Pr)
 #     W = mdissolved.sum() * w 
@@ -166,11 +176,13 @@ def blowdownAugmented(t,y):
         turbinePower = 0.0
     else :
         if (dP > 0):
-            v = sqrt(2*abs(dP)/(y[2]/volume))
+            air.set_TP(y[0],y[1])
+            v = sqrt( 2*air.Cp*y[0] * (1-(y[4]/y[1])**(gammam1/gamma)) ) 
             mdot = nozzleArea*v*y[2]/volume
             turbinePower = airTurbineEfficency * 0.5 * nozzleArea * y[2]/volume * abs(v)**3.0
         else :
-            v = -sqrt(2*abs(dP)/(y[5]/volume))
+            air.set_TP(y[3],y[4])
+            v = -sqrt( 2*air.Cp*y[3] * (1-(y[1]/y[4])**(gammam1/gamma)) ) 
             mdot = nozzleArea*v*y[5]/volume
             turbinePower = airTurbineEfficency * 0.5 * nozzleArea * y[5]/volume * abs(v)**3.0
     return [y[2]/volume, y[5]/volume, dP, v, mdot, turbinePower]
@@ -205,8 +217,10 @@ def blowdownDeriv(t, y): # adiabatic, isentropic
     dPdt_right = dPdrho_right * drhodt
     dTdrho_right = gammam1 * (y[3]/z[1]**gammam1) / z[1]**(1-gammam1)
     dTdt_right = dTdrho_right * drhodt
-    dTdt_left += -sign(dTdt_left) * heatAddition / (0.7447e3 * y[2])
-    dTdt_right += -sign(dTdt_right) * heatAddition / (0.7447e3 * y[5])
+    air.set_TP(y[0], y[1])
+    dTdt_left += -sign(dTdt_left) * heatAddition / (air.Cvg * y[2])
+    air.set_TP(y[3], y[4])
+    dTdt_right += -sign(dTdt_right) * heatAddition / (air.Cvg * y[5])
     return [dTdt_left, dPdt_left, z[4], dTdt_right, dPdt_right, -z[4], z[5], 0, 0]
 
 def isothermalDeriv(t, y): # adiabatic, isentropic
@@ -283,7 +297,7 @@ def regenerateDeriv(t, y, Twater, mair, TPair, Pdepth, dPIO, extend=False) : # t
     sal = 36.39
     Cp_water = sw.eos80.cp(sal, T90conv(Twater-273.15), P/10000)
     rho_water = sw.eos80.dens(sal, T90conv(Twater-273.15), P/10000)
-    air = Mixture('air', T=t, P=P)
+    air.set_TP(t, P)
     Cv_air = air.Cvg
 #     print(t, P, Cp_water,rho_water,Cv_air)
     dTdm = (Twater - t) * Cp_water / (Cv_air * mair)
@@ -457,13 +471,14 @@ def objective_1MWByArea(nArea):
     
 def initialize(dP = 0, dThot=dTfinal,dTcold=dTfinal):
     global Pdepth, Pstart, Thot, Tcold, rhoHot, rhoCold
-    Pdepth = 1000*9.806*depth
+    Pdepth = sw.eos80.pres(depth, 28)*1e4 # dPa to Pa
+    dPIO = sw.eos80.pres(depth+ioHeight, 28)*1e4 - Pdepth
     Pstart = Pdepth + dP
     Thot = Tsurface-dThot   
     Tcold = Tdeep+dTcold
-    air = Mixture('air', T=Thot, P=Pstart)
+    air.set_TP(Thot, Pstart)
     rhoHot = air.rho
-    air = Mixture('air', T=Tcold, P=Pstart)
+    air.set_TP(Tcold, Pstart)
     rhoCold = air.rho
     return ("Initialzed: %6.0f m %10.0f Pa %10.0f Pa %6.2f K %6.2f K %6.2f K %8.4f %8.4f" % 
           (depth, Pdepth, Pstart, Tsurface, Tdeep, dTfinal, rhoHot, rhoCold) )
@@ -748,7 +763,7 @@ def printSummary(tfinal, yfinal, solutions, mhot, mcold, makeUpAir) :
     energy = 1e-6*yfinal[6]
     pump = 1e-6*(mhot[1]+mcold[1])
     turbine = 1e-6*(mhot[2]+mcold[2])
-    compressor = -1e-6*makeUpAir[0] / compressorEfficiency
+    compressor = -1e-6*makeUpAir / compressorEfficiency
     parasiticLoss = 100.0 * (pump + turbine) / energy
     net = energy + (pump + turbine) + compressor
     netPower = net / tfinal
@@ -778,6 +793,16 @@ if __name__ == '__main__':
     logging.basicConfig(filename=filename, format=FORMAT)
     logger.setLevel(logging.DEBUG)
     
+    Vs = []
+    for gas in gasCoefficients :
+        v = gasCoefficients[gas][2]
+        Vs.append(v)
+    print(list(gasCoefficients.keys()))
+    print(Vs)
+    air = Mixture(list(gasCoefficients.keys()), Vfgs=Vs, T=295.55, P=100198)
+    gamma = air.Cpg / air.Cvg
+    gammam1 = gamma - 1
+    
     nozzleArea = 1
     nConverge = 4
     initialize()
@@ -786,16 +811,17 @@ if __name__ == '__main__':
         for d in [95] : # range(80,96,1) : #  
             depth = d
 #         depth = 90
-            for dp in [-10e3] : # range(-10000, 10000, 1000) :
-                logger.info( initialize(dp) )
+            for dp in [-13e3] : # range(-20000, 0, 1000) : #  
 #                 (tfinal, yfinal, solutions, mhot, mcold) = runAlternatingIsothermal(nConverge, show=False, detailed=nConverge+1)
 #                 W = dissolvedAir(yfinal[1], yfinal[0], 35, 1024, mhot[0] + mcold[0])
 #                 printSummary(tfinal, yfinal, solutions, mhot, mcold, W )
-                for h in linspace(2, 5, 20) :
+                for h in [2.5] : #linspace(2, 5, 20) : #  
                     ioHeight = h
-                    dPIO = 9.806*1024*ioHeight
-                    (tfinal, yfinal, solutions, mhot, mcold) = runAlternatingIsothermal(nConverge, show=False, detailed=nConverge+1)
-                    W = dissolvedAir(yfinal[1], yfinal[0], 35, 1024, mhot[0] + mcold[0])
+                    logger.info( initialize(dp) )
+                    (tfinal, yfinal, solutions, mhot, mcold) = runAlternatingIsothermal(nConverge, show=True, detailed=nConverge+1)
+                    (W, w, T1, mass, mdissolved) = dissolvedAir(yfinal[1], yfinal[0], 35, 1024, mhot[0] + mcold[0])
+                    logger.info((W, w, T1, mass, mdissolved))
+
                     print("%6.1f " % (h), end='')
                     printSummary(tfinal, yfinal, solutions, mhot, mcold, W )
     if (False) : 
